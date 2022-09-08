@@ -18,7 +18,7 @@ A simple, responsive implementation of a QR code design using a mobile first str
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/carolb92/qr-code-component-main)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
