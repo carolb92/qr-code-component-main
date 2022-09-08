@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; padding-top: 200px; }
+    
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      height: 100vh;
+    }
+
+    .wrap {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 125px;
+    }
+
+    .container {
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+      width: 90%;
+    }
+
+    figure {
+      height: auto;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px;
+    }
+
+    img {
+      border-radius: 25px;
+      width: 90%;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Libre Franklin', sans-serif;
+      text-align: center;
+      padding: 0px 10px 10px 10px;
+    }
+
+    h1 {
+      color: hsl(218, 44%, 22%);
+      font-weight: bolder;
+      font-size: 1.25em;
+      padding: 0px 20px 0px 20px;
+    }
+
+    p {
+      font-size: 1em;
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+      line-height: 1.25em;
+      padding: 0px 20px 20px 20px;
+    }
+
+    /* desktop */
+    @media (min-width: 1440px) {
+      .container { width: 25% }
+    }
+
+    
+
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class ="container">
+      <figure>
+        <img src="images/image-qr-code.png" alt="QR code" />
+      </figure>
+      <div class ="text">
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
